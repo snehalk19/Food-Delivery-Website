@@ -2,7 +2,7 @@
 const restList = [ {
     "type": "restaurant",
     "info": {
-        "resId": 10159,
+        "resId": 200980,
         "name": "Natural Ice Cream",
         "image": {
             "url": "https:\/\/b.zmtcdn.com\/data\/pictures\/chains\/2\/10152\/dd88ed01246bc34c56200866611e9a21_o2_featured_v2.jpg"
@@ -106,7 +106,7 @@ const restList = [ {
         "clickActionDeeplink": ""
     },
     "distance": "1.5 km",
-    "isPromoted": false,
+    "isPromoted": true,
     "promotedText": "",
     "trackingData": [
         {
@@ -1122,7 +1122,7 @@ const restList = [ {
         "clickActionDeeplink": ""
     },
     "distance": "5.6 km",
-    "isPromoted": false,
+    "isPromoted": true,
     "promotedText": "",
     "trackingData": [
         {
