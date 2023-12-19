@@ -11,9 +11,8 @@ class About extends React.Component {
   render() {
     return (
       <div>
-        <h2>About</h2>
         <h3>Welcome to about Page</h3>
-        <div>
+        <div className="text-center">
           LoggedIn User
           <UserContext.Consumer>
             {({ loggedInUser }) => (

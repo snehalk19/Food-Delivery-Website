@@ -18,10 +18,10 @@ const Header = () => {
 
   return (
     <div className="flex justify-between bg-pink-100 shadow-lg sm:bg-yellow-100 lg:bg-green-100">
-      <div className="logo-container">
-        <img className="w-2/6" src={LOGO_URL}></img>
+      <div className="flex justify-start">
+        <img className="w-1/6 align-middle" src={LOGO_URL}></img>
       </div>
-      <div className="flex items-center">
+      <div>
         <ul className="flex p-4 m-4">
           <li className="px-2">Online Status: {onlinestatus ? "✅" : "🔴"}</li>
           <li className="px-2">
@@ -29,15 +29,8 @@ const Header = () => {
           </li>
 
           <li className="px-2">
-            <Link to="/about"> About </Link>
-          </li>
-          <li className="px-2">
             <Link to="/grocery"> Grocery </Link>
           </li>
-          <li className="px-2">
-            <Link to="/contact"> Contact </Link>
-          </li>
-
           <li className="px-2 font-bold">
             {" "}
             <Link to="/cart"> Cart({cartItems.length} items) </Link>
