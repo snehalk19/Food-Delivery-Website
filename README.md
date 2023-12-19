@@ -1,4 +1,4 @@
-# Food_Delivery_React
+# Food-Delivery-Website using React
 
 Project consist of food delivery application using React.
 Implemented using following concepts:
