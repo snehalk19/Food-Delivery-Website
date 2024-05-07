@@ -22,13 +22,18 @@ Make sure you have Node.js and npm installed on your machine.
 ### Installation
 
 ###### Clone the repository:
-`https://github.com/snehalk19/Food-Delivery-Website.git`  
 
-```cd Food-Delivery-Website```
-
+```bash
+git clone https://github.com/snehalk19/Food-Delivery-Website.git
+cd Food-Delivery-Website
+```
 
 ###### Install dependencies:
-`npm install`
+```bash
+npm install
+```
 
 ###### Run the app:
-`npm run start`
+```bash
+npm run start
+```
