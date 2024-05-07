@@ -24,7 +24,7 @@ Make sure you have Node.js and npm installed on your machine.
 ###### Clone the repository:
 `https://github.com/snehalk19/Food-Delivery-Website.git`  
 
-`cd Food-Delivery-Website`
+```cd Food-Delivery-Website```
 
 
 ###### Install dependencies:
